@@ -1,0 +1,51 @@
+<html>
+  <head>
+    
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA_Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+
+    <link rel="stylesheet" href= "static/css/main.css" />
+    <h1>Onam Song Predictor</h1>
+  </head>
+
+  <body>
+    
+    <div>
+        <p><b>Enter the first five letters of the song. Either by Speech or by Text</b></p>
+      <h2 style="font-size: 40;">Speech </h2>
+    <form method="POST" action="{{url_for('vpredict')}}">  
+        <textarea rows="5" cols="50" type= "text" name ='vtext' placeholder="Your voice processing..." id="speechToText"></textarea>
+        <button onclick="speak()" type="submit" class="inputs" value = "vpredict" style="font-size: 20;">Speak</button>
+    </form>
+    </div>
+    <script>
+        function speak() {
+          var recognition = new webkitSpeechRecognition();
+          recognition.lang = "en-GB";
+          recognition.onresult = function (event) {
+            console.log(event);
+            document.getElementById("speechToText").value =
+              event.results[0][0].transcript;
+          
+          };
+          recognition.start();
+        }
+        h1
+      
+      </script>
+      <div>
+        <h3>Text</h3>
+        
+        <form method="POST" action="{{url_for('predict')}}">
+          <input rows="5" cols="50" type="text" name = 'textval' id="content"al>
+          <button style="font-size: 24; position: absolute;left: 70%; top: 78%" type="submit" class="inputs" value = "predict">Enter</button>
+
+
+        </form>
+          
+      
+
+      </div>
+  </body>
+</html>
