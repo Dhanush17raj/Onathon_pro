@@ -28,9 +28,18 @@ The sequence of characters is then passed through an embedding layer, output of 
 
 
 
+
 <h2>Website</h2>
 
 ![frontend](https://user-images.githubusercontent.com/76429389/188716639-ec9d217f-76f6-4b83-92c6-d5cf653e1655.jpeg)
+
+
+
+<h2>Team Members</h2>
+
+<h2>Dhanush Raj R J<br>
+Ashok R<br>
+Kiran S</h2>
 
 
 
