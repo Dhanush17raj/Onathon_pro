@@ -33,6 +33,9 @@ The sequence of characters is then passed through an embedding layer, output of 
 
 ![frontend](https://user-images.githubusercontent.com/76429389/188716639-ec9d217f-76f6-4b83-92c6-d5cf653e1655.jpeg)
 
+![Screenshot (101)](https://user-images.githubusercontent.com/76429389/189047803-0e0a1f38-9280-4f78-87a2-cc5b2e9ab317.png)
+
+
 
 
 <h2>Team Members</h2>
