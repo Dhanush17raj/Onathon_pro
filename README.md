@@ -1,5 +1,5 @@
 # Onathon_pro
-This is an NLP model that is going to predict onam songs,  when we input the five 5 words of the song. The model is build on Bi_LSTM.we made use of pytorch for implementing the model. The input can be given either as text or voice command. The model will show the predicted song, actual song and the youtube link for the song.
+This is an NLP model that is going to predict onam songs,  when we input the five 5 letters of the song. The model is build on Bi_LSTM.we made use of pytorch for implementing the model. The input can be given either as text or voice command. The model will show the predicted song, actual song and the youtube link for the song.
 
 <h1>MODEL ARCHITECTURE</h1>
 
